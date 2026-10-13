@@ -3,7 +3,8 @@
 Public privacy documents for meyuro games. This repository contains static public documents only.
 
 - DECKMATE policy: https://chang-jin-lee.github.io/meyuro-privacy/deckmate/
-- 문의 / Inquiries: https://github.com/Chang-Jin-Lee/meyuro-privacy/issues
+- 지원 및 개인정보 문의 / Support and privacy: alicepyongpyong@gmail.com
+- 공개 문의 / Public inquiries: https://github.com/Chang-Jin-Lee/meyuro-privacy/issues
 - Developer: meyuro
 - Package: `com.meyuro.deckmate`
 
