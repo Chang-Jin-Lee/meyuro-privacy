@@ -25,12 +25,14 @@
     <nav aria-label="언어 / Language"><a href="#korean">한국어</a><a href="#english" lang="en">English</a><a href="../">meyuro</a></nav>
     <section id="korean" aria-labelledby="ko-title">
       <h1 id="ko-title">DECKMATE 개인정보 처리방침</h1>
-      <p class="meta">개발자: meyuro · 적용 버전: 0.1.0 · 시행일 및 최종 수정일: 2026년 10월 13일<br>Android 패키지: <code>com.meyuro.deckmate</code></p>
-      <p>이 방침은 meyuro가 개발하는 DECKMATE의 로컬 2인 게임 기능과 이용자가 자발적으로 보내는 지원 문의에 적용됩니다.</p>
+      <p class="meta">개발자: meyuro · 적용 버전: 0.2.0 이상 · 시행일 및 최종 수정일: 2026년 11월 20일 (이전 판: 2026년 10월 13일, 0.1.0)<br>Android 패키지 · iOS 번들 ID: <code>com.meyuro.deckmate</code></p>
+      <p>이 방침은 meyuro가 개발하는 DECKMATE의 게임 기능(같은 기기 2인 대전, 기기 안의 연습용 AI 대전, 두 기기를 직접 연결하는 온라인 2인 대전)과 이용자가 자발적으로 보내는 지원 문의에 적용됩니다.</p>
 
       <h2>1. 게임에서 처리하는 정보</h2>
-      <p>DECKMATE는 같은 기기에서 두 사람이 번갈아 플레이하는 게임입니다. 이용자 계정, 로그인, 온라인 대전, 광고, 인앱 결제 및 이용 분석 기능을 제공하지 않습니다. 이름, 이메일, 위치, 연락처, 사진, 마이크 녹음 또는 광고 식별자를 게임 플레이를 위해 요청하거나 개발자 서버로 전송하지 않습니다.</p>
-      <p>보드 상태, 카드와 행동 기록은 게임 진행을 위해 기기의 메모리에서 처리됩니다. 이 플레이 정보는 개발자에게 전송되지 않으며, 새 게임을 시작하거나 앱을 종료하면 해당 게임 세션에서 제거됩니다.</p>
+      <p>DECKMATE는 같은 기기에서 두 사람이 번갈아 하거나, 기기 안의 연습용 AI와 하거나, 두 기기를 직접 연결해 둘이 하는 게임입니다. 이용자 계정, 로그인, 광고, 인앱 결제, 이용 분석 기능과 개발자가 운영하는 게임 서버가 없습니다. 이름, 이메일, 위치, 연락처, 사진, 마이크 녹음 또는 광고 식별자를 요청하거나 개발자에게 전송하지 않습니다.</p>
+      <p>보드 상태, 카드와 행동 기록은 게임 진행을 위해 기기의 메모리에서 처리됩니다. 연습용 AI도 기기 안에서만 계산합니다. 이 플레이 정보는 개발자에게 전송되지 않으며, 새 게임을 시작하거나 앱을 종료하면 해당 게임 세션에서 제거됩니다.</p>
+      <p><strong>온라인 대전</strong>: 한 기기가 방을 열고(호스트) 다른 기기가 호스트의 주소를 입력해 들어가면, 두 기기가 개발자 서버를 거치지 않고 직접 연결됩니다(TCP 7777 포트). 두 기기는 앱 버전과 규칙 버전, 이동 명령, 보드 상태, 연결 확인 신호만 주고받으며 이름이나 기기 식별자는 보내지 않습니다. 연결을 위해 상대 기기는 이용자 기기의 IP 주소를 알게 되며, 호스트 화면에는 자기 기기의 네트워크 주소가 표시됩니다. iOS에서는 같은 네트워크의 상대 기기에 연결할 때 로컬 네트워크 접근 허용을 묻습니다. 온라인 대전을 쓰지 않으면 네트워크 연결을 하지 않습니다.</p>
+      <p><strong>기기에 저장되는 설정</strong>: 언어, 효과음·배경음 음량, 애니메이션 속도, 이동 안내와 좌표 표시, 진동, 연습용 AI 난이도와 진영, 게임 방법을 본 적이 있는지, 그리고 다음 접속을 편하게 하도록 마지막으로 입력한 호스트 주소를 기기 안에만 저장합니다. 이 설정은 개발자에게 전송되지 않습니다.</p>
 
       <h2>2. 지원 문의</h2>
       <p>지원 또는 개인정보 관련 문의는 <a href="mailto:alicepyongpyong@gmail.com">alicepyongpyong@gmail.com</a>으로 보내 주세요. 문의 시 자발적으로 제공한 이메일 주소, 이름, 문의 내용과 첨부 자료는 문제 확인과 답변을 위해 처리됩니다. <a href="https://github.com/Chang-Jin-Lee/meyuro-privacy/issues">공개 문의 게시판</a>도 이용할 수 있으며, 게시판 이용 시 GitHub 사용자 이름과 게시물이 공개됩니다. 공개 게시판에는 비밀번호, 서명 키, 개인 연락처, 신분증 또는 비공개 로그를 올리지 마세요.</p>
@@ -39,11 +41,11 @@
       <p>meyuro는 게임 플레이 정보를 판매하거나 광고 목적으로 공유하지 않습니다. 지원 문의는 문의 해결과 필요한 후속 대응에만 이용합니다. 문의에 필요한 최소한의 정보를 제공해 주세요. 개인정보 처리방침과 문의 게시판은 HTTPS로 제공되며 이메일은 Gmail을 통해 처리됩니다. 문의 정보에 대한 접근은 문의 대응에 필요한 범위로 제한합니다. 법률에 따른 보관 또는 적법한 요청이 있는 경우 그 의무에 필요한 범위에서 정보를 처리할 수 있습니다.</p>
 
       <h2>4. 보관과 삭제</h2>
-      <p>게임 세션 정보는 위에 설명한 기간 동안 기기 메모리에만 유지됩니다. 지원 문의의 개인정보는 문의 해결 후 필요한 후속 대응이 끝나면 개발자가 관리하는 사본에서 삭제합니다. 법률이 보관을 요구하면 해당 기간 동안 필요한 정보만 보관합니다. Gmail과 GitHub의 서비스 기록, GitHub 공개 게시물과 수정 이력은 각 서비스의 보관·삭제 절차를 따릅니다. 개인정보 열람, 정정, 삭제 또는 처리 관련 요청은 <a href="mailto:alicepyongpyong@gmail.com">지원 이메일</a>로 보내 주세요. 게임 내 이용자 계정은 생성되지 않습니다.</p>
+      <p>게임 세션 정보는 위에 설명한 기간 동안 기기 메모리에만 유지됩니다. 기기에 저장되는 설정과 마지막 호스트 주소는 앱을 삭제하면 함께 지워지며, 호스트 주소는 새 주소를 입력하면 바뀝니다. 지원 문의의 개인정보는 문의 해결 후 필요한 후속 대응이 끝나면 개발자가 관리하는 사본에서 삭제합니다. 법률이 보관을 요구하면 해당 기간 동안 필요한 정보만 보관합니다. Gmail과 GitHub의 서비스 기록, GitHub 공개 게시물과 수정 이력은 각 서비스의 보관·삭제 절차를 따릅니다. 개인정보 열람, 정정, 삭제 또는 처리 관련 요청은 <a href="mailto:alicepyongpyong@gmail.com">지원 이메일</a>로 보내 주세요. 게임 내 이용자 계정은 생성되지 않습니다.</p>
 
       <h2>5. 외부 서비스와 링크</h2>
       <p>이 정책 페이지와 문의 게시판은 GitHub에서 호스팅됩니다. 페이지 방문이나 게시판 이용 시 GitHub가 서비스 운영을 위해 처리하는 접속 정보 등은 <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub 개인정보 처리방침</a>을 따릅니다. 이 페이지에는 분석 스크립트, 광고 또는 개발자가 설치한 추적 쿠키가 없습니다.</p>
-      <p>Google Play 또는 itch.io의 다운로드, 결제, 계정과 서비스 진단 정보는 각 플랫폼이 자체 방침에 따라 처리합니다. <a href="https://policies.google.com/privacy">Google 개인정보 처리방침</a>과 <a href="https://itch.io/docs/legal/privacy-policy">itch.io 개인정보 처리방침</a>을 확인할 수 있습니다.</p>
+      <p>App Store, Google Play 또는 itch.io의 다운로드, 결제, 계정과 서비스 진단 정보는 각 플랫폼이 자체 방침에 따라 처리합니다. <a href="https://www.apple.com/kr/legal/privacy/">Apple 개인정보 처리방침</a>, <a href="https://policies.google.com/privacy">Google 개인정보 처리방침</a>과 <a href="https://itch.io/docs/legal/privacy-policy">itch.io 개인정보 처리방침</a>을 확인할 수 있습니다.</p>
 
       <h2>6. 방침 변경과 연락처</h2>
       <p>게임의 정보 처리 방식이 변경되면 이 페이지와 수정일을 갱신합니다. 새로운 수집 기능이 추가되면 필요한 안내와 동의 절차를 제공한 후 적용합니다. 개인정보 보호 담당 개발자는 meyuro이며, 연락처는 <a href="mailto:alicepyongpyong@gmail.com">alicepyongpyong@gmail.com</a>입니다.</p>
@@ -51,12 +53,14 @@
 
     <section id="english" class="english" lang="en" aria-labelledby="en-title">
       <h1 id="en-title">DECKMATE Privacy Policy</h1>
-      <p class="meta">Developer: meyuro · Applicable version: 0.1.0 · Effective and last updated: October 13, 2026<br>Android package: <code>com.meyuro.deckmate</code></p>
-      <p>This policy covers DECKMATE's local two-player gameplay and support inquiries voluntarily submitted to meyuro.</p>
+      <p class="meta">Developer: meyuro · Applicable version: 0.2.0 and later · Effective and last updated: November 20, 2026 (previous version: October 13, 2026, for 0.1.0)<br>Android package and iOS bundle ID: <code>com.meyuro.deckmate</code></p>
+      <p>This policy covers DECKMATE's gameplay (two players on one device, practice against an on-device AI, and online two-player games between two directly connected devices) and support inquiries voluntarily submitted to meyuro.</p>
 
       <h2>1. Information handled by the game</h2>
-      <p>DECKMATE is played by two people taking turns on the same device. It has no player accounts, login, online multiplayer, advertising, in-app purchases or usage analytics. Gameplay does not request or transmit names, email addresses, location, contacts, photos, microphone recordings or advertising identifiers to a developer server.</p>
-      <p>Board state, cards and action history are processed in device memory to run the game. This gameplay information is not sent to the developer. Starting a new game or closing the app removes the corresponding game session.</p>
+      <p>DECKMATE is played by two people taking turns on one device, against a practice AI on the device, or by two people on two directly connected devices. It has no player accounts, login, advertising, in-app purchases, usage analytics or developer-operated game servers. It does not request names, email addresses, location, contacts, photos, microphone recordings or advertising identifiers, and sends nothing to the developer.</p>
+      <p>Board state, cards and action history are processed in device memory to run the game. The practice AI also runs only on the device. This gameplay information is not sent to the developer. Starting a new game or closing the app removes the corresponding game session.</p>
+      <p><strong>Online play</strong>: when one device opens a room (host) and the other enters the host's address, the two devices connect directly over TCP port 7777 without going through any developer server. They exchange only the app and rules versions, move commands, board state and connection checks; no names or device identifiers are sent. To connect, the other device learns your device's IP address, and the host screen shows its own network address. On iOS, connecting to a device on the same network asks for local network permission. If you do not use online play, the game makes no network connections.</p>
+      <p><strong>Settings stored on the device</strong>: language, sound and music volume, animation speed, move hints and board coordinates, vibration, practice AI level and side, whether the how-to-play guide was shown, and the last host address you entered (to make reconnecting easier) are stored only on the device. They are not sent to the developer.</p>
 
       <h2>2. Support inquiries</h2>
       <p>For support or privacy questions, email <a href="mailto:alicepyongpyong@gmail.com">alicepyongpyong@gmail.com</a>. Your voluntarily provided email address, name, message and attachments are used to investigate and answer the inquiry. You can also use the <a href="https://github.com/Chang-Jin-Lee/meyuro-privacy/issues">public inquiry board</a>, where your GitHub username and posts are public. Do not post passwords, signing keys, private contact details, identity documents or private logs on the public board.</p>
@@ -65,11 +69,11 @@
       <p>meyuro does not sell gameplay information or share it for advertising. Support information is used only to resolve inquiries and necessary follow-up. Please provide only what is needed. This policy and the inquiry board are served over HTTPS; email is handled through Gmail. Access to inquiry information is limited to what is needed for support. Information may be handled to the extent required by applicable law or a valid legal request.</p>
 
       <h2>4. Retention and deletion</h2>
-      <p>Game session information stays in device memory for the period described above. Personal information in developer-managed copies of support inquiries is deleted when the inquiry and necessary follow-up are complete, unless a legal retention obligation applies. Gmail and GitHub service records, and public posts and revision history on GitHub, follow each service's retention and deletion processes. For access, correction, deletion or other privacy requests, contact the <a href="mailto:alicepyongpyong@gmail.com">support email</a>. The game does not create user accounts.</p>
+      <p>Game session information stays in device memory for the period described above. Settings and the last host address stored on the device are removed when you delete the app, and the host address is replaced when you enter a new one. Personal information in developer-managed copies of support inquiries is deleted when the inquiry and necessary follow-up are complete, unless a legal retention obligation applies. Gmail and GitHub service records, and public posts and revision history on GitHub, follow each service's retention and deletion processes. For access, correction, deletion or other privacy requests, contact the <a href="mailto:alicepyongpyong@gmail.com">support email</a>. The game does not create user accounts.</p>
 
       <h2>5. External services and links</h2>
       <p>GitHub hosts this policy and the inquiry board. Information GitHub processes to operate its services, including access information, is covered by the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>. This page contains no analytics scripts, advertising or developer-installed tracking cookies.</p>
-      <p>Google Play and itch.io handle their own download, payment, account and service diagnostics information under their respective policies: <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and <a href="https://itch.io/docs/legal/privacy-policy">itch.io Privacy Policy</a>.</p>
+      <p>The App Store, Google Play and itch.io handle their own download, payment, account and service diagnostics information under their respective policies: <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a>, <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and <a href="https://itch.io/docs/legal/privacy-policy">itch.io Privacy Policy</a>.</p>
 
       <h2>6. Changes and contact</h2>
       <p>We update this page and its revision date when the game's information handling changes. New collection features will include required notice and consent before taking effect. meyuro is the developer responsible for privacy. Contact: <a href="mailto:alicepyongpyong@gmail.com">alicepyongpyong@gmail.com</a>.</p>
